@@ -1,0 +1,8 @@
+@media only screen and (max-width: 700px) {
+  .navbar-nav {
+    max-height: 300px !important;
+  }
+  .singup {
+    display: inline !important;
+  }
+}
