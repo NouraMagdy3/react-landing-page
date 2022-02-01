@@ -1,0 +1,25 @@
+.footer {
+  padding-top: 180px;
+}
+.footer a {
+  color: #4f5665 !important;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  vertical-align: top;
+}
+.footer .social span{
+    margin-left : -1rem!important;
+}
+.footer .rights {
+    color: #AFB5C0;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 125px 30px 30px 30px;
+  }
+  .col-12 {
+    padding-bottom: 20px;
+  }
+}

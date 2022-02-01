@@ -1,0 +1,27 @@
+.subscribe {
+  width: 60%;
+  margin: 0 auto;
+  overflow: overlay;
+  margin-bottom: -7%;
+  margin-top: 5%;
+}
+.subscribe .flex-wrap {
+  gap: 20px;
+}
+.subscribe,
+.subscribe .subscribeBtn {
+  border-radius: 10px;
+}
+.subscribe .subscribeBtn {
+  background: #f53838 !important;
+  width: 208px;
+  height: 60px;
+}
+
+@media (max-width: 991px) {
+  .subscribe {
+    width: 90%;
+    margin-top: 10%;
+
+  }
+}

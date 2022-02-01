@@ -1,0 +1,7 @@
+.brands .d-flex {
+    gap: 35px;
+}
+.brands img {
+  width: 156.25px;
+  height: auto;
+}
