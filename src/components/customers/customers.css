@@ -1,3 +1,6 @@
+.customers {
+  margin-top: 6rem;
+}
 .card {
   border: 2px solid #dddddd;
   border-radius: 10px;
@@ -15,6 +18,12 @@
   width: 16px !important;
   height: 16px;
   margin-top: 3px;
+}
+.card-title {
+  font-size: 1rem !important;
+}
+.card-subtitle {
+  font-size: 0.9rem !important;
 }
 .react-multi-carousel-track {
   gap: 30px;

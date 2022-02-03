@@ -102,10 +102,10 @@ const Customers = () => {
                             alt={review.author}
                         />
                             <div>
-                                <Card.Title className="mb-1 fw-bold">
+                                <Card.Title className="text-start mb-1 fw-bold">
                                     {review.author}
                                 </Card.Title>
-                                <Card.Subtitle className="mb-0">
+                                <Card.Subtitle className="text-start mb-0">
                                     {review.address}
                                 </Card.Subtitle>
                             </div>
@@ -128,7 +128,7 @@ const Customers = () => {
     }, []);
 
     return (
-        <div className='customers text-center mt-5'>
+        <div className='customers text-center'>
             <Container>
                 <h2 className='mb-3 mt-4 fw-bolder'>Trusted by Thousands of
                     <br></br>Happy Customer</h2>

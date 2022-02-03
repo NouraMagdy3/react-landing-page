@@ -22,17 +22,17 @@ const Footer = () => {
                             <div className="social my-4">
                                 <a href="/">
                                     <span className="me-3">
-                                        <img src={facebookImg} alt="" />
+                                        <img src={facebookImg} alt="facebook" />
                                     </span>
                                 </a>
                                 <a href="/">
                                     <span className="me-3">
-                                        <img src={twitterImg} alt="" />
+                                        <img src={twitterImg} alt="twitter" />
                                     </span>
                                 </a>
                                 <a href="/">
                                     <span className="me-3">
-                                        <img src={instaImg} alt="" />
+                                        <img src={instaImg} alt="instagram" />
                                     </span>
                                 </a>
                             </div>

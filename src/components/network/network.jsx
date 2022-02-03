@@ -13,7 +13,7 @@ const Network = () => {
                     <br></br> of Fast VPN</h2>
                 <p>See LaslesVPN everywhere to make it easier for you when you move locations.</p>
                 <div className="text-center">
-                <img src={networkImg} alt="networkImg" className="mt-5 img-fluid" />
+                <img src={networkImg} alt="network" className="mt-5 img-fluid" />
                 </div>
             </Container>
         </div>

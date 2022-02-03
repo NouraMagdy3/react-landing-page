@@ -1,4 +1,5 @@
 import React from 'react';
+import { useMemo } from 'react';
 //images
 import brand1 from '../../assests/img/Mask Group.png';
 import brand2 from '../../assests/img/Mask Group (1).png';
@@ -8,15 +9,45 @@ import brand5 from '../../assests/img/Mask Group (4).png';
 //style
 import './brands.css';
 
+//const
+const brandsImages = [
+    {
+        id: 1,
+        src: brand1,
+    },
+    {
+        id: 2,
+        src: brand2,
+    },
+    {
+        id: 3,
+        src: brand3,
+    },
+    {
+        id: 4,
+        src: brand4,
+    },
+    {
+        id: 5,
+        src: brand5,
+    }
+]
+
 const Brands = () => {
+
+    //useMemo
+    const renderBrandsImages = useMemo(() => {
+        return brandsImages.map((brandImage) => {
+            return (
+                <img data-testid='brandIm' src={brand1} alt='brand' key={brandImage.id} />
+            )
+        })
+    }, []);
+
     return (
         <div className='brands mt-5 mb-5'>
             <div className='d-flex justify-content-center align-items-center flex-wrap'>
-                <img src={brand1} alt='' />
-                <img src={brand2} alt='' />
-                <img src={brand3} alt='' />
-                <img src={brand4} alt='' />
-                <img src={brand5} alt='' />
+                {renderBrandsImages}
             </div>
         </div>
     );
