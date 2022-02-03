@@ -1,0 +1,39 @@
+.plan {
+  background: #fff;
+  padding: 50px;
+  border: 1px solid #eee;
+  min-height: 1040px;
+}
+.plan i {
+  font-weight: 600;
+  color: rgba(47, 171, 115, 1);
+}
+.plan span {
+  margin-left: 20px;
+}
+.plan-prent {
+  gap: 30px;
+}
+.footer-plan {
+  bottom: 6% !important;
+  left: 30%;
+}
+.span-plan {
+  font-weight: 50 !important;
+}
+
+.plan .button-select {
+  background: rgba(245, 56, 56, 1) !important;
+  color: white !important;
+}
+@media (max-width: 991px) {
+  .plan-prent {
+    flex-direction: column !important;
+  }
+  .footer-plan {
+    bottom: 0%;
+  }
+  .plan {
+    height: auto !important;
+  }
+}

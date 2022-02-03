@@ -1,29 +1,3 @@
 
-.nav {
-  background: rgba(255, 255, 255, 1) !important;
-}
-.btn-menu {
-  background: transparent;
-  border: 1px solid red;
-  border-radius: 30px;
-  width: 150px;
-  height: 40px;
-}
-.singup {
-  color: rgba(11, 19, 42, 1) !important;
-  font-weight: 500;
-}
 
-.link {
-  font-weight: 400;
-}
-.icon {
-  padding: 0.66667rem;
-  border-radius: 50%;
-  background: rgb(255, 236, 236);
-  text-align: center;
-  display: inline-block;
-  font-size: 2rem;
-  width: 55px;
-  color: rgba(245, 56, 56, 1);
-}
+

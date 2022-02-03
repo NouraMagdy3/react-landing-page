@@ -1,28 +1,30 @@
-import { Container, Form, FormControl, Nav, Navbar, NavDropdown } from "react-bootstrap";
+
 import './Header.css'
+//images
 import Logo from '../../assets/Logo.png'
-import { Button } from "bootstrap";
+import { Container, Nav, Navbar, Button } from "react-bootstrap";
+//style
 const Header = () => {
     return (
         <div>
             <Navbar expand="lg">
                 <Container >
-                    <Navbar.Brand href="#"><img src={Logo} /></Navbar.Brand>
+                    <Navbar.Brand href="#"><img src={Logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="m-auto my-2 my-lg-0"
-                            style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#action1" className="link">About</Nav.Link>
-                            <Nav.Link href="#action2" className="link">Pricing</Nav.Link>
-                            <Nav.Link href="#action2" className="link">Testimonials</Nav.Link>
-                            <Nav.Link href="#action2" className="link">Help</Nav.Link>
+                            <Nav.Link href="#action1" className="navbar-link">About</Nav.Link>
+                            <Nav.Link href="#action1" className="navbar-link">Features</Nav.Link>
+                            <Nav.Link href="#action2" className="navbar-link">Pricing</Nav.Link>
+                            <Nav.Link href="#action2" className="navbar-link">Testimonials</Nav.Link>
+                            <Nav.Link href="#action2" className="navbar-link">Help</Nav.Link>
                         </Nav>
 
                         <Nav.Link href="#deets" className="singup">Sign In</Nav.Link>
-                        <button className="btn-menu ">Sign Up</button>
+                        <Button className="btn-menu">Sign Up</Button>
 
                     </Navbar.Collapse>
                 </Container>
