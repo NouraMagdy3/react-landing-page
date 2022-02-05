@@ -1,0 +1,55 @@
+.plan {
+  background: #fff;
+  padding: 50px;
+  border: 2px solid #eee;
+  min-height: 1040px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.plan:hover {
+  border-color: #f53838;
+}
+.plan i {
+  font-weight: 600;
+  color: rgba(47, 171, 115, 1);
+}
+.plan span {
+  margin-left: 20px;
+}
+.plan-prent {
+  gap: 30px;
+}
+.footer-plan {
+  bottom: 6% !important;
+  left: 25%;
+}
+.span-plan {
+  font-weight: 50 !important;
+}
+.plan button {
+  transition: .2s;
+}
+.plan button:hover,
+.plan .button-select {
+  box-shadow: 0px 17px 25px -2px rgb(245 56 56 / 35%);
+  background: rgba(245, 56, 56, 1) !important;
+  color: white !important;
+}
+@media (max-width: 991px) {
+  .footer-plan {
+    bottom: 0%;
+  }
+  .plan {
+    height: auto !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .plan {
+    padding: 25px;
+  }
+}
+@media (max-width: 767px){
+  .plan-prent {
+    flex-direction: column !important;
+  }
+}

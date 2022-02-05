@@ -39,7 +39,7 @@ const Brands = () => {
     const renderBrandsImages = useMemo(() => {
         return brandsImages.map((brandImage) => {
             return (
-                <img data-testid='brandIm' src={brand1} alt='brand' key={brandImage.id} />
+                <img data-testid='brandIm' src={brandImage.src} alt='brand' key={brandImage.id} />
             )
         })
     }, []);

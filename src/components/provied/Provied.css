@@ -1,0 +1,21 @@
+.provied-item {
+  margin-left: 140px;
+}
+.provied-item i {
+  background-color: rgba(47, 171, 115, 1);
+  border-radius: 50%;
+  border: 1px solid rgba(47, 171, 115, 1);
+  padding: 3px;
+  color: white;
+}
+
+.provied-item p span {
+  font-weight: 400;
+  color: rgba(79, 86, 101, 1);
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .provied-item {
+    margin-left: 0 !important;
+  }
+}

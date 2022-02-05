@@ -23,4 +23,16 @@ p {
   p {
     font-size: 15px;
   }
+  .navbar-collapse {
+    padding: 25px;
+    background: #f5f7fa;
+    margin-top: 10px;
+  }
+  .nav-link {
+    padding-left: 0;
+    display: block !important;
+  }
+  .navbar-collapse .btn {
+    margin-top: 0.5rem;
+  }
 }
