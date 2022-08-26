@@ -1,9 +1,7 @@
 .subscribe {
   width: 60%;
-  margin: 0 auto;
-  overflow: overlay;
-  margin-bottom: -7%;
-  margin-top: 5%;
+  margin: 5% auto;
+  background: #fad7d78f;
 }
 .subscribe .flex-wrap {
   gap: 20px;
